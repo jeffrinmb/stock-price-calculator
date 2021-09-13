@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
+
+:root {
+  --primary-color: white;
+  --primary-background: #374151;
+  --primary-accent: #4338ca;
+  --primary-font: 'Gupter', serif;
+}
+
+body {
+  color: var(--primary-color);
+  background-color: var(--primary-background);
+  font-family: var(--primary-font);
+}
+
+.container {
+  width: 60vw;
+  margin: auto;
+  text-align: center;
+}
+
+input,
+label {
+  display: block;
+  margin: 1rem auto;
+  font-size: 1.1rem;
+}
+
+input {
+  width: 60%;
+  height: 3rem;
+  text-align: center;
+}
+
+button {
+  width: 61%;
+  font-family: var(--primary-font);
+  background-color: var(--primary-accent);
+  border: 1px solid var(--primary-accent);
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  font-weight: bolder;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#output {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
